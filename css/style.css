@@ -105,7 +105,79 @@ body {
   	letter-spacing: 0.03em;
   }
  
+ .introduction {
+ 	width: 100%;
+ 	height:460px;
+ 	background-image: url(http://www.thinkful.com/courses/curricula/FEWD-001/version/4/asset/first-background.jpg);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+.meetkarmaintrobox {
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	margin: 0 auto;
+	width: 962px;
+	height: 73px;
+	margin: 0 auto;
+	padding-top: 43px;
+}
+
+.meetkarmaintrobox h1 {
+	font-size: 3.2em;
+	font-weight: 300;
+    line-height: 2;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 4px;
+	}
+
+.meetkarmaintrobox h3 {
+	font-size: 1.6em;
+	font-weight: 300;
+    line-height: 2;
+	margin-top: -15px;
+	text-align: center;
+	letter-spacing: 1.2px;
+	padding-bottom: 18px;
+	}
+.splitbox-learn {
+	width: 154px;
+	height: 57px;
+	float: left;
+	padding: 16px 25px;
+	margin-left: 275px;
+
+}
+.learn-more-btn {
+	font-size: 1.125em;
+    color: white;
+    background-color: #f15a29;
+    border: none;
+    text-shadow: none;
+    border-radius: 4px;
+    padding: 16px 25px;
+    text-shadow: none;
+    float: left;
+
+}
+.splitbox-play {
+	width: 182px;
+	height: 68px;
+	float: left;
+}
+.play {
+	float: left;
+	display: inline-block;
+	padding-top: 24px;
+}
+.splitbox-pressplay > p {
+    padding-top: 30px;
+    padding-left: 12px;
+    float:  left;
+    font-size:  1.3em;
+}
  
 
   
