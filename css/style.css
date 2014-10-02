@@ -56,6 +56,8 @@ body {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
 }
 .top-navigation > .content {
   width: 970px;
@@ -178,6 +180,60 @@ body {
     float:  left;
     font-size:  1.3em;
 }
- 
+ .cases {
+ 	width: 960px;
+ 	margin: 0 auto;
+ }
+ .cases-headline {
+ 	text-align: center;
+	font-size: 2.6em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	padding-top: 126px;
+	padding-bottom: 65px;
+ }
+ .cases {
+ 	width: 960px;
+ }
+
+ .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 4em;
+    margin-right: -4px;
+    border:none;
+    padding-left: 60px;
+    float:left;
+    text-align: center;
+
+}
+h3 {
+font-size: 1.4em;
+font-weight: 300;
+font-family: "Roboto", sans-serif;
+margin-bottom: 17px;
+margin-top: 40px;
+}
+
+.devices-description {
+display: block;
+margin-left: -12px;
+font-weight: 300;
+font-family: "Roboto", sans-serif;
+font-size: 1.2em;
+color: #4c5058;
+line-height: 1.5em;
+text-align: center;
+width: 275px;
+
+
+
+} 
+
+
+.devices-description {
+	
+}
 
   
