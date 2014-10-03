@@ -355,3 +355,52 @@ ul.icons {
 html, body {
 	height: 100%;
 }
+.buy-now-section {
+	width: 100%;
+	height: 810px;
+}
+.buy-now-blurb {
+	height: 560px;
+	width: 315px;
+	float: left;
+	z-index: 2;
+	padding-left: 120px;
+	padding-top: 70px;
+
+}
+
+.buy-now-blurb > h3 {
+	color: #f9461c;
+	padding-left: 13px;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+}
+
+p.lead {
+	font-size: 1.2em;
+	font-weight: 300;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	color: #4c5058;
+	padding: 5px 10px 5px 10px;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+
+}
+ .learn-more-btn  {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 1em;
+	letter-spacing: .9px;
+}
+
+
+.buy-now-bg {
+	width: 100%;
+ 	height: 810px;
+ 	margin-bottom: 45px;
+ 	background-image: url("https://web.archive.org/web/20140912222754/https://dy53q6sor7j4i.cloudfront.net/assets/bg-graphic-sharing-8b84b8b239b1e6df4091c31055342a11.jpg");
+	background-position: 0 center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
