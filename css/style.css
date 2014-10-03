@@ -89,7 +89,7 @@ body {
   	letter-spacing: 0.03em;
   	margin-left: 12px;
   }
-
+.icon-list-header,
   .top-navigation .links .active a {
   	color: #4c5058;
     font-weight: 600;
@@ -180,6 +180,11 @@ body {
     float:  left;
     font-size:  1.3em;
 }
+ 
+.content {
+	width: 100%;
+	height: 673px;
+}
  .cases {
  	width: 960px;
  	margin: 0 auto;
@@ -192,9 +197,7 @@ body {
 	padding-top: 126px;
 	padding-bottom: 65px;
  }
- .cases {
- 	width: 960px;
- }
+ 
 
  .devices {
     width: 33.3333333%;
@@ -214,6 +217,7 @@ font-weight: 300;
 font-family: "Roboto", sans-serif;
 margin-bottom: 17px;
 margin-top: 40px;
+
 }
 
 .devices-description {
@@ -227,13 +231,127 @@ line-height: 1.5em;
 text-align: center;
 width: 275px;
 
-
-
 } 
+.clear-floats {
+	clear: both;
+}
+.footer {
+	width: 100%;
+	color: #838994;
+	height: 600px;
+	
+}
+.footercontentwrapper {
+	width: 960px;
+	height: 280px;
+	
+	margin: 0 auto;
+	color: #838994;
+	position: relative;
 
+}
+ 
+.footer-stuff {
+	
+	width: 940px;
+	height: 30%;
+	background: white;
+	clear: both;
+	margin: 0 5px auto;
 
-.devices-description {
+	}
+
+.col-long-footer {
+	width: 960px;
+	height: 85px;
+	margin: 20px 0 auto;
+	border-top: 1px dotted #eaebec;
+	position: absolute;
+	bottom: 0;
+	padding-top: 16px;
+}
+.footer-col-left {
+	width: 225px;
+	height: 75px;
+	float: left;
+}
+.footer-col-mid {
+	width: 415px;
+	height: 75px;
+	
+	float: left;
+
+}
+.footer-col-right {
+	width: 295px;
+	height: 75px;
+	padding-top: 7px;
+	float: right;
+
+}
+
+.list-unstyled {
+	float:left;
+	padding: 5px 25px 5px 35px;
+}
+.footer-col-right .header,
+.footer-col-mid .header {
+	color: #4c5058;
+	font-weight: 400;
+	font-family: "Roboto", sans-serif;
+	padding-bottom:8px;
+	font-size: 1em;
+}
+
+li.fakeform {
+	margin-left: -30px;
+}
+.footer-col-right .header {
+	margin-left: -27px;
+}
+
+.footer-col-mid a {
+	text-decoration: none;
+	color: #838994;
+	font-family: "Roboto", sans-serif;
+	font-weight:300;
+}
+
+.footer-col-mid a:hover{
+	text-decoration: none;
+	color: #f9461c;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+.footer-col-mid li {
+	padding-top:6px;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+ul.icons {
+	width: 155px;
+	padding-top: 19px;
+	padding-bottom: 14px;
+	margin: 0 auto;
 	
 }
 
-  
+.icons >li{
+	display:inline-block;
+	padding:;
+}
+
+.icon-list-header {
+	text-align: center;
+	font-family: "roboto", sans-serif;
+	font-size: 0.9em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+html, body {
+	height: 100%;
+}
